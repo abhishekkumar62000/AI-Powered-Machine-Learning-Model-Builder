@@ -1,4 +1,6 @@
+<img width="1024" height="1024" alt="AI" src="https://github.com/user-attachments/assets/c8e6e2d8-4e8c-42be-8cc1-e61c3a5856e9" />
 
+<img width="1916" height="1080" alt="page main" src="https://github.com/user-attachments/assets/8b89a470-ca1e-4a36-816c-b9a36d763045" />
 
 
 
