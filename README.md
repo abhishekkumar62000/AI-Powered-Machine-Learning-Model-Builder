@@ -2,7 +2,7 @@
 
 <img width="1916" height="1080" alt="page main" src="https://github.com/user-attachments/assets/8b89a470-ca1e-4a36-816c-b9a36d763045" />
 
-OUR APP:-- 
+OUR APP:-- https://machine-learning-model-builder.streamlit.app/
 
 https://github.com/user-attachments/assets/c1c1c1fe-2cd7-415b-94ff-2a301a2ff57b
 
