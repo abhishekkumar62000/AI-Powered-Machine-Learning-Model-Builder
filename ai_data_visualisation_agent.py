@@ -239,6 +239,30 @@ def main():
         .stDownloadButton>button:hover {
             background: linear-gradient(90deg, #f953c6 0%, #00f2fe 100%);
             color: #fff;
+            transform: scale(1.08) rotate(-2deg);
+            box-shadow: 0 4px 24px #f953c6cc;
+        }
+        /* Animated Buttons */
+        button[kind="primary"], .stButton>button {
+            background: linear-gradient(90deg, #ffd200 0%, #00c6ff 100%);
+            color: #232526;
+            border-radius: 12px;
+            font-weight: 700;
+            font-size: 1.08em;
+            box-shadow: 0 2px 16px #ffd20066;
+            transition: background 0.3s, color 0.3s, transform 0.2s;
+            animation: buttonPulse 2.5s infinite;
+        }
+        button[kind="primary"]:hover, .stButton>button:hover {
+            background: linear-gradient(90deg, #f953c6 0%, #43e97b 100%);
+            color: #fff;
+            transform: scale(1.09) rotate(2deg);
+            box-shadow: 0 4px 24px #43e97bcc;
+        }
+        @keyframes buttonPulse {
+            0% { box-shadow: 0 0 8px #ffd20088, 0 0 0px #00c6ff; }
+            50% { box-shadow: 0 0 24px #00c6ff88, 0 0 12px #ffd200; }
+            100% { box-shadow: 0 0 8px #ffd20088, 0 0 0px #00c6ff; }
         }
         /* Inputs */
         .stTextInput>div>div>input, .stTextArea textarea {
@@ -271,6 +295,21 @@ def main():
             border-radius: 14px !important;
             box-shadow: 0 2px 16px #38f9d799;
             animation: fadeIn 0.8s;
+        }
+        /* Tab highlight animation */
+        .stTabs [data-baseweb="tab"] {
+            background: linear-gradient(90deg, #ffd200 0%, #00c6ff 100%);
+            color: #232526;
+            border-radius: 10px 10px 0 0;
+            font-weight: 700;
+            font-size: 1.08em;
+            box-shadow: 0 2px 12px #ffd20044;
+            transition: background 0.3s, color 0.3s;
+        }
+        .stTabs [aria-selected="true"] {
+            background: linear-gradient(90deg, #f953c6 0%, #43e97b 100%);
+            color: #fff;
+            box-shadow: 0 4px 24px #43e97bcc;
         }
         </style>
         """,
