@@ -2,6 +2,7 @@ streamlit
 pandas
 seaborn
 matplotlib
+shap
 plotly
 altair
 together==1.3.10
